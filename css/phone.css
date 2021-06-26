@@ -1,7 +1,11 @@
+html {
+  overflow-x:hidden;
+}
 body {
   margin:0;
   font-family:'Noto Serif JP',serif;
   overflow-y:scroll;
+  overflow-x:hidden;
 }
 #body.s-hide{
   overflow-y:hidden;
@@ -137,7 +141,7 @@ background-position:0 0 , 30px 30px;
 .empty {
   width:300px;
   height:300px;
-  margin:50px 10%;
+  margin:50px 0;
   padding:0;
   user-select:none;
 }
@@ -145,7 +149,7 @@ background-position:0 0 , 30px 30px;
 .overlay a {
   width:300px;
   height:300px;
-  margin:50px 10%;
+  margin:50px 0;
   text-decoration:none;
   color:#333;
 }
@@ -365,7 +369,9 @@ header {
 .dance-h1-2 {
   position:absolute;
   top:120px;
-  left:90px;
+  left:50%;
+  transform:translateX(-50%);
+  white-space:nowrap;
 }
 .dance-h1-3 {
   position:absolute;
@@ -452,7 +458,7 @@ header {
   font-size:30px;
   position:absolute;
   top:40px;
-  right:20px;
+  right:15px;
   writing-mode:vertical-rl;
   text-orientation:upright;
   letter-spacing:10px;
@@ -464,13 +470,13 @@ header {
 }
 .camp-textbox {
   position:absolute;
-  top:45%;
-  left:50%;
-  padding:5vh;
+  top:50%;
+  left:54%;
+  padding:5px;
   transform:translate(-50%,-50%);
   writing-mode:vertical-rl;
   text-orientation:upright;
-  letter-spacing:0.3vh;
+  letter-spacing:5px;
   white-space:nowrap;
   line-height:15px;
   text-shadow:
@@ -485,7 +491,7 @@ header {
   text-decoration:none;
   position:absolute;
   bottom:10%;
-  left:10px;
+  left:15px;
   padding:20px;
   writing-mode:vertical-rl;
   text-orientation:upright;
