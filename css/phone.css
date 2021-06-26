@@ -479,7 +479,7 @@ header {
   text-orientation:upright;
   letter-spacing:5px;
   white-space:nowrap;
-  line-height:23px;
+  line-height:18px;
   text-shadow:
   1px 0 0 rgb(0, 0, 0),
   -1px 0 0 rgb(0, 0, 0),
@@ -492,7 +492,7 @@ header {
   text-decoration:none;
   position:absolute;
   bottom:50px;
-  left:15px;
+  left:5px;
   padding:20px;
   writing-mode:vertical-rl;
   text-orientation:upright;
